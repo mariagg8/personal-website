@@ -5,20 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My personal website</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-  </head>
-  <script
-    src="https://kit.fontawesome.com/761bd12e9e.js"
-    crossorigin="anonymous"
-  ></script>
-  <link rel="stylesheet" href="style.css" />
-  <body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/761bd12e9e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
     <header>
-      <h2>Maria Gonzalez</h2>
+      <div>
+        <h1>Maria Gonzalez</h1>
+      </div>
       <nav>
         <a href="#contact">Contact</a>
         <a href="#biography">Biography</a>
@@ -26,40 +28,85 @@
     </header>
 
     <main>
-      <section>
-        <div>
-      <img src="/images/spencer-watson-ioy3bN5Irew-unsplash.jpg" style="height: 250px;"
-        alt="myphoto"/>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit
-        voluptatum amet voluptate delectus ipsum earum expedita incidunt, ipsa
-        magni asperiores molestias! Aspernatur consectetur dolores labore
-        pariatur dolorem maiores laboriosam fugit.
-      </p>
+      <section class="profile-card">
+        <div class="profile">
+          <img
+            src="/images/spencer-watson-ioy3bN5Irew-unsplash.jpg"
+            class="profile-image"
+            style="height: 250px"
+            alt="myphoto"
+          />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit
+            voluptatum amet voluptate delectus ipsum earum expedita incidunt,
+            ipsa magni asperiores molestias! Aspernatur consectetur dolores
+            labore pariatur dolorem maiores laboriosam fugit.
+          </p>
         </div>
 
-      <div class="tags">
-        <h3>My Interest</h3>
-        <ul>
-          <li>yoga</li>
-          <li>traveling</li>
-          <li>cooking</li>
-        </ul>
-      </div>
-    </section>
-
-      
+        <div class="tags">
+          <h3>My Interest</h3>
+          <ul>
+            <li>yoga</li>
+            <li>traveling</li>
+            <li>cooking</li>
+          </ul>
+        </div>
+      </section>
 
       <div id="contact" class="contact">
+        <h2>Contact</h2>
         <div class="tel">Tel:12341234123</div>
         <div class="email">mariag@gmail.com</div>
       </div>
 
       <!--My links -->
-      <section>
+      <section class="social-cards">
+        <div class="card">
+          <div class="icon-social">
+            <img src="/images/codepen.png" />
+          </div>
+          <div class="card-content">
+            <h3>Codepen</h3>
+            <p>Follow me</p>
+
+            <button>
+              <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="icon-social">
+            <img src="/images/github.png" />
+          </div>
+          <div class="card-content">
+            <h3>Github</h3>
+            <p>Follow me</p>
+
+            <button>
+              <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="icon-social">
+            <img src="images/linkedin.png" style="height: 65px" />
+          </div>
+          <div class="card-content">
+            <h3>Codepen</h3>
+            <p>Follow me</p>
+
+            <button>
+              <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <!--prueba 
         <div class="card">
           <img src="/images/codepen.png"/>
-          
           <h3>Codepen</h3>
           <p>Follow me</p>
           <button>
@@ -74,7 +121,7 @@
           <button>  <i class="fas fa-arrow-right"></i></i></button>
         </div>
        
-       <div>
+       
         <div class="card">
           <img src="images/linkedin.png" style="height:65px;"/>
           <h3>Linkedin</h3>
@@ -82,49 +129,65 @@
           <button>
             <i class="fas fa-arrow-right"></i>
           </button>
-        </div>
-       </div>
-       </section>
-
-        <!--My links 
-       <section>
-          <a href="#" class="fa fa-codepen"></a>
-          <a href="#" class="fa fa-github"></a>
-          <a href="#" class="fa fa-linkedin"></a>
-        </div>
+        </div>-->
       </section>
+
+      <section class="bio-container">
+        <div id="biography" class="about">
+          <h2>Biography</h2>
+          <h3>About me</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus
+            quasi exercitationem fuga. Sequi delectus dicta tempora eius
+            deleniti accusamus temporibus, sed soluta obcaecati qui distinctio,
+            voluptas animi ut, voluptatum repellendus?
+          </p>
+        </div>
+
+        <!-- 
+
+      <div class="table">
+        <div class="table-header">
+          Curriculum
+        </div>
+          <div class="table-header-cell">
+            2022
+          </div>
+          <div class="table-header-cell">
+            2021
+          </div>
+          <div class="table-header-cell">
+            2018
+          </div>
+
+          <div class="table-body"></div>
+      </div>
       -->
 
-      <div class="about">
-        <h3>About me</h3>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus
-          quasi exercitationem fuga. Sequi delectus dicta tempora eius deleniti
-          accusamus temporibus, sed soluta obcaecati qui distinctio, voluptas
-          animi ut, voluptatum repellendus?
-        </p>
-      </div>
+        <div class="curriculum">
+          <h3>Curriculum</h3>
+          <table>
+            <tr>
+              <th>year</th>
+              <th>Position</th>
+            </tr>
 
-      <div class="curriculum">
-        <h3>Curriculum</h3>
-        <table>
-          <tr>
-            <th>year</th>
-            <th>Position</th>
-          </tr>
+            <tr>
+              <th>year</th>
+              <th>Position</th>
+            </tr>
 
-          <tr>
-            <th>year</th>
-            <th>Position</th>
-          </tr>
-
-          <tr>
-            <th>year</th>
-            <th>Position</th>
-          </tr>
-        </table>
-      </div>
+            <tr>
+              <th>year</th>
+              <th>Position</th>
+            </tr>
+          </table>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+
+    <footer>
+      <h2>Author 2022</h2>
+    </footer>
   </body>
 </html>

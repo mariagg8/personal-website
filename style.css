@@ -1,143 +1,125 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
-*{
-    box-sizing: border-box;
-   /* outline: 2px solid red;*/
+* {
+  box-sizing: border-box;
+  /* outline: 2px solid red;*/
 }
 
-body{
-   /* margin:auto;*/ margin: 0;
-    /*padding:20px;*/padding 0;
-    font-family: 'Roboto', sans-serif;
-    
+body {
+  /* margin:auto;*/
+  margin: 0;
+  /*padding:20px;*/
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(238, 236, 236, 0.979);
 }
 
-/*
-p{
-    font-family: 'Roboto', sans-serif;
-}*/
-
-
-header{
-    
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   background-color: rgb(93, 138, 180);
-   
+header {
+  display: flex;
+  justify-content: /*space-between;*/ space-around;
+  align-items: center;
+  background-color: rgb(46, 131, 131);
 }
 
-h1{
-    color:aliceblue;
-    
+nav a {
+  text-decoration: none;
+  text-align: end;
+  color: whitesmoke;
+  font-weight: bold;
+  padding-right: 20px;
 }
 
-profile-card {
-
+h1 {
+  color: aliceblue;
 }
 
-section{
-    display: flex;
-    flex-flow: row wrap;
-    padding:30px;
-    gap: 50px;  
-    padding:20px;
-    margin: 25px;
-    border-radius: 14px;
-    border:3px solid rgb(93, 138, 180);
+.profile-card p {
+  text-align: justify;
 }
 
-
-a
-{
-   text-decoration: none;
-   text-align: end; 
-   color: whitesmoke;
-
+section {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 80px;
+  padding: 30px;
+  margin: 60px;
+  border-radius: 14px;
+  box-shadow: 0 0 2px gray;
+  background-color: whitesmoke;
+  /*border:3px solid rgb(93, 138, 180);*/
 }
 
-.contact{
-margin: 25px;
-padding: 30px;
-border-radius: 14px;
-background-color: rgb(223, 224, 226);
-text-decoration: none;
+.contact {
+  margin: 60px;
+  padding: 30px;
+  border-radius: 14px;
+  background-color: rgb(223, 224, 226);
+  text-decoration: none;
 }
 
-.profile{
-display: flex;
-flex-direction: column;
-width:400px;
-gap: 50px,
+.profile {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  gap: 50px;
 }
 
-.profile-image
-{
-    max-width: 100%;
-    height: auto;
+.profile-image {
+  max-width: 100%;
+  height: auto;
 }
-.tags h3{
-    width: 100%;
-    height: auto;
-    color: rgb(93, 138, 180);
-    style: 
+.tags h3 {
+  width: 100%;
+  height: auto;
+  color: rgb(93, 138, 180);
 }
 
-.tel{
-    float: left;
-    width:45%;
+.tel {
+  float: left;
+  width: 45%;
 }
 
-.email{
-    float: left;
-    width:45%;
+.email {
+  float: left;
+  width: 45%;
 }
 
-.about{
-     float: left;
-    width:45%;
-
+.about {
+  float: left;
+  width: 45%;
+  text-align: justify;
 }
-.curriculum{
-float:right;
-width:45%;
-}
-
-
-.social-cards
-{
-/*display:flex;
-flex-flow: row wrap;*/
-justify-content:  center;
-
+.curriculum {
+  float: right;
+  width: 45%;
 }
 
-.card{
-display: flex;
-align-items: center;
-gap: 10px;
-
-height:150px; 
-width: 200px;
-padding: 5px;
-margin: 5px;
-box-shadow: 0 0 2px gray;
-
-border-radius: 25px;
-text-align: center;
+.social-cards {
+  /*display:flex;
+   flex-flow: row wrap;*/
+  justify-content: center;
 }
 
-.card-content{
-  
-    
+.card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 150px;
+  width: 200px;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 0 0 2px gray;
+  border-radius: 25px;
+  text-align: center;
 }
 
-.icon-social {
-    
-    
+.bio-container {
+  justify-content: center;
 }
 
-.footer{
-   border-radius: 2px solid red;
-    
+footer {
+  text-align: center;
+  padding: 25px;
+  background-color: lightgray;
+  color: whitesmoke;
 }
