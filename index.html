@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My personal website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
   </head>
   <script
     src="https://kit.fontawesome.com/761bd12e9e.js"
@@ -12,22 +15,28 @@
   ></script>
   <link rel="stylesheet" href="style.css" />
   <body>
+
+    
     <header>
+      <h2>Maria Gonzalez</h2>
       <nav>
-        <h2>Maria Gonzalez</h2>
         <a href="#contact">Contact</a>
         <a href="#biography">Biography</a>
       </nav>
     </header>
 
     <main>
-      <img src="" alt="myphoto" />
+      <section>
+        <div>
+      <img src="/images/spencer-watson-ioy3bN5Irew-unsplash.jpg" style="height: 250px;"
+        alt="myphoto"/>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit
         voluptatum amet voluptate delectus ipsum earum expedita incidunt, ipsa
         magni asperiores molestias! Aspernatur consectetur dolores labore
         pariatur dolorem maiores laboriosam fugit.
       </p>
+        </div>
 
       <div class="tags">
         <h3>My Interest</h3>
@@ -37,18 +46,54 @@
           <li>cooking</li>
         </ul>
       </div>
+    </section>
 
-      <div class="contact">
+      
+
+      <div id="contact" class="contact">
         <div class="tel">Tel:12341234123</div>
         <div class="email">mariag@gmail.com</div>
       </div>
 
       <!--My links -->
-      <div class="links">
-        <a href="#" class="fa fa-codepen"></a>
-        <a href="#" class="fa fa-github"></a>
-        <a href="#" class="fa fa-linkedin"></a>
-      </div>
+      <section>
+        <div class="card">
+          <img src="/images/codepen.png"/>
+          
+          <h3>Codepen</h3>
+          <p>Follow me</p>
+          <button>
+            <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+        
+        <div class="card">
+          <img src="/images/github.png"/>
+          <h3>Github</h3>
+          <p>Follow me</p>
+          <button>  <i class="fas fa-arrow-right"></i></i></button>
+        </div>
+       
+       <div>
+        <div class="card">
+          <img src="images/linkedin.png" style="height:65px;"/>
+          <h3>Linkedin</h3>
+          <p>Follow me</p>
+          <button>
+            <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+       </div>
+       </section>
+
+        <!--My links 
+       <section>
+          <a href="#" class="fa fa-codepen"></a>
+          <a href="#" class="fa fa-github"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+        </div>
+      </section>
+      -->
 
       <div class="about">
         <h3>About me</h3>

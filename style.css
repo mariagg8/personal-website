@@ -1,4 +1,143 @@
-.picture {
-  width: "30px";
-  height: "30px";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    box-sizing: border-box;
+   /* outline: 2px solid red;*/
+}
+
+body{
+   /* margin:auto;*/ margin: 0;
+    /*padding:20px;*/padding 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+/*
+p{
+    font-family: 'Roboto', sans-serif;
+}*/
+
+
+header{
+    
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: rgb(93, 138, 180);
+   
+}
+
+h1{
+    color:aliceblue;
+    
+}
+
+profile-card {
+
+}
+
+section{
+    display: flex;
+    flex-flow: row wrap;
+    padding:30px;
+    gap: 50px;  
+    padding:20px;
+    margin: 25px;
+    border-radius: 14px;
+    border:3px solid rgb(93, 138, 180);
+}
+
+
+a
+{
+   text-decoration: none;
+   text-align: end; 
+   color: whitesmoke;
+
+}
+
+.contact{
+margin: 25px;
+padding: 30px;
+border-radius: 14px;
+background-color: rgb(223, 224, 226);
+text-decoration: none;
+}
+
+.profile{
+display: flex;
+flex-direction: column;
+width:400px;
+gap: 50px,
+}
+
+.profile-image
+{
+    max-width: 100%;
+    height: auto;
+}
+.tags h3{
+    width: 100%;
+    height: auto;
+    color: rgb(93, 138, 180);
+    style: 
+}
+
+.tel{
+    float: left;
+    width:45%;
+}
+
+.email{
+    float: left;
+    width:45%;
+}
+
+.about{
+     float: left;
+    width:45%;
+
+}
+.curriculum{
+float:right;
+width:45%;
+}
+
+
+.social-cards
+{
+/*display:flex;
+flex-flow: row wrap;*/
+justify-content:  center;
+
+}
+
+.card{
+display: flex;
+align-items: center;
+gap: 10px;
+
+height:150px; 
+width: 200px;
+padding: 5px;
+margin: 5px;
+box-shadow: 0 0 2px gray;
+
+border-radius: 25px;
+text-align: center;
+}
+
+.card-content{
+  
+    
+}
+
+.icon-social {
+    
+    
+}
+
+.footer{
+   border-radius: 2px solid red;
+    
 }
